@@ -1,0 +1,50 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "semi": [
+            "error",
+            "always",
+            {
+                "omitLastInOneLineBlock": true
+            }
+        ],
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "space-in-parens": [
+            "error",
+            "never"
+        ],
+        "no-undef": "off",
+        "no-fallthrough": "off",
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "no-trailing-spaces": "error",
+        "curly": "error",
+        "keyword-spacing": [
+            "error",
+            {
+                "before": true,
+                "after": true
+            }
+        ],
+        "space-before-blocks": "error"
+    }
+}
